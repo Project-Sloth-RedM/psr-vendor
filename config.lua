@@ -22,27 +22,26 @@ Config.Model = {
 
 
 Config.Market = {
-    -- Saint Denis
-    ["saintdenis_1"] = {coords = vector3(2819.14, -1224.3, 47.54),    npc = vector3(2819.26, -1222.54, 47.54-1),    heading = 181.9,   price = 1000},
-    ["saintdenis_2"] = {coords = vector3(2824.15, -1225.32, 47.56),   npc = vector3(2824.35, -1223.43, 47.54-1),    heading = 175.17,  price = 1000},
-    ["saintdenis_3"] = {coords = vector3(2825.16, -1230.85, 47.59),   npc = vector3(2824.52, -1232.34, 47.57-1),    heading = 352.6,   price = 1000},
-    ["saintdenis_4"] = {coords = vector3(2843.0, -1233.84, 47.7),     npc = vector3(2845.21, -1233.37, 47.69-1),    heading = 125.03,  price = 1000},
-    ["saintdenis_5"] = {coords = vector3(2842.54, -1224.89, 47.61),   npc = vector3(2842.28, -1227.38, 47.66-1),    heading = 352.06,  price = 1000},
-    ["saintdenis_6"] = {coords = vector3(2853.51, -1223.23, 47.58),   npc = vector3(2853.71, -1224.88, 47.57-1),    heading = 16.43,   price = 1000},
-    ["saintdenis_7"] = {coords = vector3(2857.37, -1220.33, 47.61),   npc = vector3(2857.3, -1220.09, 47.61-1),     heading = 195.92,  price = 1000},
-    ["saintdenis_8"] = {coords = vector3(2868.48, -1225.68, 46.29),   npc = vector3(2868.48, -1225.68, 46.29-1),    heading = 348.89,  price = 1000},
-    ["saintdenis_9"] = {coords = vector3(2843.82, -1242.2, 47.66),    npc = vector3(2843.82, -1242.2, 47.66-1),     heading = 297.91,  price = 1000},
- 
-
+    -- saintdenis
+    ["saintdenis_1"]		= {coords = vector3(2834.9248, -1230.477, 47.672595),	npc = vector3(2834.9248, -1230.477, 47.672595-1),	heading = 126.16732,	price = 1000},
+	-- valentine
+	["valentine_1"]			= {coords = vector3(-261.3055, 657.62847, 113.35475),	npc = vector3(-261.3055, 657.62847, 113.35475-1),	heading = 93.25357,		price = 1000},
+	-- rhodes
+	["rhodes_1"]			= {coords = vector3(1421.1405, -1324.226, 78.383445),	npc = vector3(1421.1405, -1324.226, 78.383445-1),	heading = 8.1220006,	price = 1000},
+	-- annesburg
+	["annesburg_1"]			= {coords = vector3(2934.3537, 1301.2692, 44.483592),	npc = vector3(2934.3537, 1301.2692, 44.483592-1),	heading = 71.414871,	price = 1000},
+	-- emerald ranch
+	["emeraldranch_1"]		= {coords = vector3(1425.931, 383.17431, 89.963081),	npc = vector3(1425.931, 383.17431, 89.963081-1),	heading = 263.19744,	price = 1000},
+	-- blackwater
+	["blackwater_1"]		= {coords = vector3(-723.9505, -1254.252, 44.734088),	npc = vector3(-723.9505, -1254.252, 44.734088-1),	heading = 48.789546,	price = 1000},
+	-- strawberry
+	["strawberry_1"]		= {coords = vector3(-1753.497, -385.2882, 156.49382),	npc = vector3(-1753.497, -385.2882, 156.49382-1),	heading = 227.77938,	price = 1000},
+	-- thieveslanding
+	["thieveslanding_1"]	= {coords = vector3(-1389.585, -2337.569, 42.897602),	npc = vector3(-1389.585, -2337.569, 42.897602-1),	heading = 359.75198,	price = 1000},
+	-- armadillo
+	["armadillo_1"]			= {coords = vector3(-3691.248, -2623.862, -13.76689),	npc = vector3(-3691.248, -2623.862, -13.76689-1),	heading = 91.805175,	price = 1000},
+	-- tumbleweed
+	["tumbleweed_1"]		= {coords = vector3(-5514.908, -2947.664, -1.898856),	npc = vector3(-5514.908, -2947.664, -1.898856-1),	heading = 114.46785,	price = 1000},
+	-- macfarlaneranch
+	["macfarranch_1"]		= {coords = vector3(-2401.1, -2458.27, 60.174686),		npc = vector3(-2401.1, -2458.27, 60.174686-1),		heading = 22.848834,	price = 1000},
 }
-
---[[
-    -- Add this for BlackWater market (For ruski_blackwater (Free MAP)| https://discord.gg/yUht7Pa2GV)
-    -- Black Water 
-    ["blackwater_1"] = {coords = vector3(-813.6, -1390.62, 43.58),    npc = vector3(-813.6, -1390.62, 43.58),       heading = 60.25,   price = 1000},
-    ["blackwater_2"] = {coords = vector3(-821.6, -1383.48, 43.66),    npc = vector3(-821.6, -1383.48, 43.66),       heading = 176.58,  price = 1000},
-    ["blackwater_3"] = {coords = vector3(-824.06, -1390.86, 43.61),   npc = vector3(-823.71, -1393.28, 43.92),      heading = 9.59,    price = 1000},
-    ["blackwater_4"] = {coords = vector3(-829.19, -1385.23, 43.65),   npc = vector3(-829.13, -1381.94, 43.92),      heading = 176.76,  price = 1000},
-    ["blackwater_5"] = {coords = vector3(-836.69, -1389.72, 43.89),   npc = vector3(-836.69, -1389.72, 43.89),      heading = 287.32,  price = 1000},
-    
-]]
